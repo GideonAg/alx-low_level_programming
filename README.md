@@ -1,1 +1,1 @@
-A simple repo containing some C code :)
+This a simple repo on C programming
