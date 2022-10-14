@@ -3,6 +3,6 @@
 int main(void)
 {
 	
-	printf("Programming is like building a multilingual puzzle\n");	
+	printf("\th proper grammar, but the outcome is a piece of art,\n");	
 	return(0);
 }
