@@ -7,8 +7,8 @@
 int main(void)
 {
 int i;
-i = 48;
 int end;
+i = 48;
 end = 58;
 for (; i < end;)
 {
