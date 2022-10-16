@@ -4,7 +4,7 @@
 
 /**
  * main - start of program
- * return - has a value of 0
+ * Return: value is 0
  */
 int main(void)
 {
