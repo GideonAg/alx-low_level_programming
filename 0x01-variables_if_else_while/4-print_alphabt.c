@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - start of program
@@ -12,8 +13,9 @@ i = 0;
 for (; i < 26;)
 {
 char ch = alphabet[i];
-if (ch == 'q' || ch == 'e')
-	continue;
+if (i == 4 || i == 16)
+{
+}
 else
 {
 putchar(ch);
