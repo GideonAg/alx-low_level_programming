@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* main - start of program
+/*
+ * main - start of program
  * Return: has a value of 0
  */
 int main(void)
