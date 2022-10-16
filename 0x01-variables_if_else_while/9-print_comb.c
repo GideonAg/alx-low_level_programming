@@ -13,8 +13,11 @@ end = 58;
 for (; i < end;)
 {
 putchar(i);
+if (i < 57)
+{
 putchar(',');
 putchar(' ');
+}
 i++;
 }
 putchar('\n');
