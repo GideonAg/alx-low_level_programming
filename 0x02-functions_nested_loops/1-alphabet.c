@@ -15,7 +15,7 @@ void print_alphabet(void)
 {
 char ch;
 ch = 'a';
-for (; ch < 'z';)
+for (; ch <= 'z';)
 {
 putchar(ch);
 ch++;
