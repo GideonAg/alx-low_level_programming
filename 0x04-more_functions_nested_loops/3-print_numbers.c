@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - start of program
+ * Return: void
  */
 void print_numbers(void)
 {
