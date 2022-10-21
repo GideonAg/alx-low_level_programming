@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 0-isupper.c - checks for upper of lower
+ * _isupper - checks for upper of lower
  * @c: funtion parameter
  * Return: 1 if upper and 0 if lower
  */
