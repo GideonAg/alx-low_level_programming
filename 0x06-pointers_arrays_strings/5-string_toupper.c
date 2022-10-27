@@ -3,18 +3,18 @@
 
 /**
  * string_toupper - start of program
- * @(char *): parameter
+ * @str: parameter
  * Return: Always 0
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	int len = strlen(*(char *));
+	int len = strlen(*str);
 	int i;
 
 	for (i = 0; i < len; i++)
 	{
-		if (islower(*(char *)[i]))
-			toupper(*(char *)[i]);
+		if (islower(str[i]))
+			toupper(str[i]);
 	}
 }
