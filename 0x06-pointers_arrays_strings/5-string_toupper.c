@@ -3,17 +3,18 @@
 
 /**
  * string_toupper - start of program
- * Retrun: Always 0
+ * @(char *): parameter
+ * Return: Always 0
  */
 
 char *string_toupper(char *)
 {
-	int len = strlen(*);
+	int len = strlen(*(char *));
 	int i;
 
 	for (i = 0; i < len; i++)
 	{
-		if (islow(*[i]))
-			toupper(*[i]);
+		if (islower(*((char *)[i])))
+			toupper(*((char *)[i]));
 	}
 }
