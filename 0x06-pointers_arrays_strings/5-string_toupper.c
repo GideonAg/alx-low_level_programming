@@ -14,7 +14,7 @@ char *string_toupper(char *)
 
 	for (i = 0; i < len; i++)
 	{
-		if (islower(*((char *)[i])))
-			toupper(*((char *)[i]));
+		if (islower(*(char *)[i]))
+			toupper(*(char *)[i]);
 	}
 }
