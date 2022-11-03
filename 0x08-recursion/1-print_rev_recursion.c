@@ -1,5 +1,6 @@
 #include <string.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _print_rev_recursion - start
@@ -12,6 +13,6 @@ void _print_rev_recursion(char *s)
 	int len = strlen(s) - 1;
 	int i;
 
-	for (i = len; i >= 0; i--)
-		_putchar(s[i]);
+	char *strrev(s);
+	puts(s);
 }
