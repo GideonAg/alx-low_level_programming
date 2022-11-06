@@ -10,7 +10,10 @@
 
 int _pow_recursion(int x, int y)
 {
+	double x = x;
+	double y = y;
+
 	if (y < 0)
 		return (-1);
-	return (pow(x,y));
+	return (pow(x, y));
 }
