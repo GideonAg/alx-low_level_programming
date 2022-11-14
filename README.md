@@ -1,1 +1,1 @@
-This is a simple repo which contains some script files running some C code
+It's time to practice some structures and typedef
