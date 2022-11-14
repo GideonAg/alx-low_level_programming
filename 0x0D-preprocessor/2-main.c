@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - start
@@ -7,5 +7,6 @@
 
 int main(void)
 {
-	_putchar("%s", __FILE__);
+	printf("%s\n", __FILE__);
+	return (0);
 }
