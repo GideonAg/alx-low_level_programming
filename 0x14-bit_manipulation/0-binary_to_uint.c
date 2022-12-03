@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_binary - start
- * @n: parameter
+ * binary_to_uint - start
+ * @b: parameter
  * Return: void
  */
 
-void print_binary(unsigned long int n)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int a;
 	int len;
