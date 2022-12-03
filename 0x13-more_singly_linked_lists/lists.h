@@ -19,7 +19,7 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct listp_s = A typedef struct of listp_s
+ * struct listp_s - A typedef struct of listp_s
  * @p: void pointer
  * @next: pointer to next node
  */
@@ -28,7 +28,7 @@ typedef struct listp_s
 {
 	void *p;
 	struct listp_s *next;
-} listp_t;
+} listp_s;
 
 size_t print_listint(const listint_t *h);
 
