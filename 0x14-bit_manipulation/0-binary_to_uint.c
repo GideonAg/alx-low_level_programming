@@ -8,14 +8,14 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned int n;
+	unsigned int a;
 	int len;
 	int base_two;
 
 	if (!b)
 		return (0);
 
-	n = 0;
+	a = 0;
 
 	for (len = 0; b[len] != '\0'; len++)
 		;
@@ -26,8 +26,8 @@ void print_binary(unsigned long int n)
 			return (0);
 
 		if (b[len] & 1)
-			n += base_two;
+			a += base_two;
 	}
 
-	return (n);
+	return (a);
 }
