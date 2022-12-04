@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void __artribute__(constructor) print(void);
+void __attribute__(constructor) print(void);
 
 /**
  * print - prints a string first befor the main
