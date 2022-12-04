@@ -1,12 +1,20 @@
 #include "lists.h"
 
 /**
- * free_list - frees allocated memory space
- * @head: pointer to allocated memory space
+ * free_list - start
+ * @head: parameter
  * Return: void
  */
 
 void free_list(list_t *head)
 {
-	free(head);
+	list_t = *temp;
+
+	while (head)
+	{
+		temp = head->next;
+		free(head->str);
+		free(head);
+		head = temp;
+	}
 }
