@@ -1,4 +1,10 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <sts/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 /**
  * read_textfile - start
